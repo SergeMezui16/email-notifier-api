@@ -1,4 +1,10 @@
 framework:
     mailer:
-        from: '%env(MAILER_FROM)%'
         dsn: '%env(MAILER_DSN)%'
+        message_bus: false
+        envelope:
+            sender: 'noreply@spacecoder.fun'
+        headers:
+            From: 'Serge Mezui <noreply@spacecoder.fun>'
+            Bcc: 'noreply@spacecoder.fun'
+            X-Custom-Header: 'Serge Mezui'
