@@ -3,8 +3,8 @@ framework:
         dsn: '%env(MAILER_DSN)%'
         message_bus: false
         envelope:
-            sender: 'noreply@spacecoder.fun'
+            sender: 'serge.mezui@alphoncine.sergemezui.dev'
         headers:
-            From: 'Serge Mezui <noreply@spacecoder.fun>'
-            Bcc: 'noreply@spacecoder.fun'
+            From: 'Serge Mezui <serge.mezui@alphoncine.sergemezui.dev>'
+            Bcc: 'serge.mezui@alphoncine.sergemezui.dev'
             X-Custom-Header: 'Serge Mezui'
