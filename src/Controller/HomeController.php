@@ -26,7 +26,6 @@ final class HomeController extends AbstractController
     {
         // Send email
         $email = (new Email())
-            ->from('test@sergemezui.dev')
             ->subject($event->description)
             ->to('sergemezui.dev@gmail.com')
             ->html("
