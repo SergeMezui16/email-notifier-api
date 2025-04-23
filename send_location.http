@@ -1,0 +1,15 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=PhpStorm
+
+### POST request to example server
+POST https://127.0.0.1:8000/
+Content-Type: application/json
+
+{
+  "identifier": "event123",
+  "longitude": 12.3456,
+  "latitude": 78.9012,
+  "description": "Sample event description",
+  "date": "2023-10-01T12:00:00+00:00"
+}
